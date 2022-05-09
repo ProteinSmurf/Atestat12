@@ -1,0 +1,120 @@
+<html>
+    <head>
+
+	<style>
+	 .gallery{
+    margin: 10px 30px;
+}
+.gallery img{
+    width: 350px;
+	height: 250px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+@font-face
+{
+font-family: "DIOGENES";
+src: url("DIOGENES.ttf") format("truetype");
+}
+
+div.boxCenter{
+margin 150px;
+}
+
+div.box {
+  margin: 150px;
+  margin-top: 70px;
+    background-color: #000000;
+  border: 1px solid black;
+    opacity: 0.8;
+ 
+}
+div.box2 {
+  margin: 120px;
+margin-right :700px;
+margin-left :700px;
+    background-color: #000000;
+  opacity: 0.8;
+    
+ 
+}
+div.box2 h2{
+  margin: 2%;
+  font-weight: bold;
+  color: #ffffff;
+  }
+  
+  div.box h1{
+  margin: 1%;
+  font-weight: bold;
+  color: #ffffff;
+  }
+  
+div.box p {
+  margin: 3%;
+  font-weight: bold;
+  color: #ffffff;
+		</style>
+    <title>Gallery</title>
+
+        <script>
+        var sound= new Audio();
+        sound.src= 'zeussong.mp3';
+        function scaleUP(obj, size)
+        {
+        obj.style.fontSize = size;
+        }
+        function scaleDOWN(obj, size)
+        {
+        obj.style.fontSize = size;
+        }
+		
+		
+
+        </script>
+        <link rel="shortcut icon" type="image/x-icon" href="Buton1.png" />
+    </head>
+  <body> 
+  <body background = "greek2.png">
+
+     
+             <center>
+		  <div class="background">
+	          <div class="box2">
+		      <font size="+3">        
+	         
+			 <h2 style="font-family:DIOGENES"><a style="color:#ffffff;" onmouseover="scaleUP(this,'53px')" onmouseout="scaleDOWN(this,'50px')" class="box"; href="atestat.html">Gallery</a></h2>
+                       
+		  </font>
+		     
+		 </center> 
+        </div>
+		</div>
+	
+	 <div class="gallery">
+	
+	 <a href="A1.jpg" ><img src="A.jpg"></a>
+	  <a href="B1.jpg" ><img src="B.jpg"></a>
+	   <a href="EE1.jpg" ><img src="EE.jpg"></a>
+	    <a href="D1.jpg" ><img src="D.jpg"></a>
+		<a href="AA1.jpg" ><img src="AA.jpg"></a>
+		<a href="F1.jpg" ><img src="F.jpg"></a>
+		<a href="G1.jpg" ><img src="G.jpg"></a>
+		<a href="H1.jpg" ><img src="H.jpg"></a>
+		<a href="CC1.jpg" ><img src="CC.jpg"></a>
+		<a href="DD1.jpg" ><img src="DD.jpg"></a>
+            </div>
+               
+
+         
+              
+<audio loop autoplay src="zeussong.mp3" type="MP3 File">
+
+  </body>
+</html>

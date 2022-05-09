@@ -1,0 +1,40 @@
+
+@font-face
+{
+font-family: "DIOGENES";
+src: url("DIOGENES.ttf") format("truetype"); 
+
+}
+
+h1
+{
+    font-family: "DIOGENES";
+    color:     #000000;
+    text-align: center;
+    font-size: 60;
+
+
+}
+h2
+{
+    font-family: "DIOGENES";
+    color:    #000000;
+    text-align:center;
+    font-size:75;
+}
+div.background {
+  background: url(greek1.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transpbox 
+    {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 3px solid black;
+    opacity: 0.8;
+    }
+div.transpbox h1 {
+  margin: 2%;
+  color: #ffffff;
+}

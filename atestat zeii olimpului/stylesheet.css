@@ -1,0 +1,42 @@
+img
+{
+    height:100;
+    width:200;
+    style :  display: block;
+    align: center;
+
+}
+@font-face
+{
+font-family: "DIOGENES";
+src: url("DIOGENES.ttf") format("truetype");
+}
+h1
+{
+    font-family: "DIOGENES";
+    color:     #000000;
+    text-align: center;
+    font-size: 100;
+
+
+}
+h2
+{
+    font-family: "DIOGENES";
+    color:    #000000;
+    text-align:center;
+    font-size:75;
+}
+a
+{
+    text-decoration:none;
+
+}
+	
+		body {
+  font-family: DIOGENES;
+  font-size: 20px;
+}
+
+
+		
